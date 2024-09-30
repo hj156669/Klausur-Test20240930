@@ -9,14 +9,28 @@ console.log("Aufgabe 1")
 // Es soll das Volumen eines Würfels in Quadratzentimeter (cm3) ausgegeben werden. Arbeiten Sie mit einem Objekt und sprechenden Eigenschaften.
 // Geben Sie das Volumen in einem Antwortsatz auf der Konsole aus.
 
+class Volumen{
+    constructor(){
+        this.Länge
+        this.Höhe
+        this.Breite
+    }
+}
 
+let Volumen = new Volumen
+let.Höhe = 2
+let.Breite = 2
+let.Länge = 2
 
+console.log("Höhe:" + let.Höhe , "Breite:" + let.Breite , "Länge:" + let.Länge)
 
 // 1b 
 // Wenn das Volumen 1000 oder mehr Quadratzentimeter beträgt soll eine Meldung auf der Konsole ausgegeben werden, die besagt,
 // dass das Volumen 1000 oder mehr Quadratzentimeter beträgt.
 
-
+if (Volumen>=1000){
+    console.log("Volumen größer als 1000")
+}
 
 
 
@@ -33,18 +47,38 @@ console.log("Aufgabe 2")
 // 2a)
 // Definieren Sie die class
 
+class Zeugnis{
+    constructor(){
+        this.Deutsch
+        this.Mathe
+        this.Englisch
+        this.Religion
+        this.Schule
+        this.Vorname
+        this.Nachname
+        this.Klasse
+    }
+}
 
 
 // 2b)
 // Deklarieren, Instanziieren und Initialisieren Sie ein Objekt von der Zeignisklasse.
 
-
+let Zeugnis = new Zeugnis;
+let.Deutsch = 2
+let.Mathe = 3
+let.Englisch = 3
+let.Religion = 2
+let.Schule = "BKB"
+let.Vorname = "Hans"
+let.Nachname = "Müller"
+let.Klasse = "GW23A"
 
 
 // 2c)
 // Geben Sie die Eigenschaftswerte Ihres Objekts auf der Konsole aus.
 
-
+console.log(' "Deutsch:" + let.deutsch , ' "Mathe:" + let.mathe , ' "Englisch:" let.Englisch')
 
 // 2d) NUR KLAUSURSCHREIBER
 // Berechnen Sie die Durchnittsnote Ihres Objekts. Geben Sie die Durchschnittsnote auf der Konsole aus.
@@ -86,20 +120,34 @@ console.log("Aufgabe 3")
 // 3a)
 // Deklarieren, Instanziieren Sie ein Objekt mit allen genannten Eigenschaften. 
 
-
+class Rechnungsbetrag{
+    constructor(){
+        this.netto-Rechnungsbetrag
+        this.Mwst Lebensmittel, Zeitung, Buch
+        this.Mwst alles andere
+    }
+}
 
 
 // 3b
 // Initialisieren Sie Ihr Objekt mit den gegebenen Werten. 
 // Geben Sie die einen Anwortsatz auf der Konsole aus.
 
+let Rechnungsbetrag = new Rechnungsbetrag{
+    let.netto-Rechnungsbetrag = 370
+    let.Mwst Lebensmittel, Zeitung, Buch = 7%
+    let.Mwst alles andere = 19%
+}
 
+console.log("netto-Rechnungsbetrag:" + 'let.netto-Rechnungsbetrag' , "Lebensmittel, Zeitung, Buch:" + 'let.Lebensmittel, Zeitung, Buch' , "alles andere" + 'let.alles andere')
 
 // 3c)
 // Berechnen Sie die MwSt in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
 
+let Mwst = 7%
 
-
+console.log("Mwst:" (370*7/100))
+console.log('Das Ergebnis der Mwst:(370*7/100)')
 
 
 // 3d)
@@ -107,7 +155,8 @@ console.log("Aufgabe 3")
 // Wenn die Produktart sich ändert, muss Ihre Berechnung sich anpassen.
 // Geben Sie den Wert in einen Anwortsatz auf der Konsole aus.
 
-
+console.log("Brutto-Rechnungsbetrag:" (370+7%))
+console.log('Das Ergebnis des Netto-Rechnungsbetrags:(370+7%)')
 
 
 
